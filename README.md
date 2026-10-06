@@ -76,5 +76,13 @@ research/   _bite_common.py + bite_1_eventdriven.py (merger arb + spin-offs — 
 live/       (no driver — honest null)
 ```
 
+## Planned v2 leg — classic announced-deal merger arb (Betrothed)
+
+`bite_2`: the classic risk-arbitrage trade — long the target / short the acquirer on announced deals, weighted by deal-
+completion probability — as the issuer-level complement to bite's ETF-level MNA test. Honest null: is the spread just
+compensation for binary regulatory/financing risk, or is there systematic underpricing of completion? Needs a deal feed
+(announcement/terms/close dates) not in Alpaca, so it's queued, not built. (Folded here as Betrothed from the batch-3 set,
+since it is the same event-driven family bite already covers.)
+
 ## License
 [MIT](LICENSE). (c) 2026 Carter Warrens.
